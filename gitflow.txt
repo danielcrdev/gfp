@@ -1,0 +1,25 @@
+# listar branches
+git branch -a
+
+# sincronização do seu repositório remoto, faça o checkout criando sua branch develop e envie para seu repositório remoto
+git fetch origin && git checkout -b developer && git push origin develop
+
+
+# criar feature branch
+git checkout -b feature/criacao
+
+
+# enviar código local para github
+git push origin feature/criacao
+
+
+
+
+
+
+
+
+
+
+
+
